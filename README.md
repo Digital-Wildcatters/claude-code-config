@@ -238,6 +238,32 @@ Provides compliance reviews with explicit hard lines vs. negotiable paths. Focus
 
 ---
 
+### 📝 Conventional Commit Generator - Git Commit Architect
+
+**Quote:** *"Your commit message is the first documentation anyone reads. Make it count."*
+
+**Personality:**
+- Precise and specification-compliant
+- No-nonsense about commit hygiene
+- Allergic to vague messages like "fixed stuff" or "updates"
+- Produces clean, enterprise-ready commits without AI attribution noise
+
+**Most Likely To:**
+Analyze your 47-file diff and correctly identify it as a `refactor(auth)` instead of a `feat`
+
+**When to Call:**
+- Ready to commit and want a properly formatted conventional commit message
+- Multiple changes that might need to be split into separate commits
+- Unsure which commit type (`feat`, `fix`, `refactor`, etc.) fits your changes
+- Want a commit message that explains the "why" not just the "what"
+
+**Signature Style:**
+Examines git diffs with surgical precision. Produces commit messages following Conventional Commits v1.0.0 spec exactly—proper type, optional scope, imperative mood description, body when needed, and appropriate footers. Never adds emoji branding, AI attribution, or Co-Authored-By tags. Just clean, professional commits.
+
+**File:** `.claude/agents/conventional_commit_subagent.md`
+
+---
+
 ## Slash Commands
 
 Quick actions for common workflows:
