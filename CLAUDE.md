@@ -46,6 +46,12 @@ Use these specialized subagents proactively when their expertise is needed:
 **Plugin:** `spyros`
 **Files:** `.claude/agents/spyros.md` (local), `plugins/spyros/` (distribution)
 
+## conventional-commit-generator
+**When to use:** Generating conventional commit messages from staged or unstaged git changes
+**Trigger:** When user is ready to commit and wants a properly formatted conventional commit message. Use when committing code changes.
+**Plugin:** Not yet distributed as plugin (local only)
+**Files:** `.claude/agents/conventional_commit_subagent.md` (local)
+
 # Slash Commands
 
 **Plugin:** `collide-commands`
